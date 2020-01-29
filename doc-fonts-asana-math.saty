@@ -1,0 +1,35 @@
+@require: stdjabook
+@require: code
+@require: itemize
+@require: math
+
+let-inline ctx \set-non-cjk-font name it =
+  let ctx =
+    ctx |> set-font Latin (name, 1., 0.)
+        |> set-font OtherScript (name, 1., 0.)
+  in
+  read-inline ctx it
+
+let-inline ctx \set-math-font name it =
+  let ctx =
+    ctx |> set-math-font name
+  in
+  read-inline ctx it
+
+in
+
+document (|
+  title = {\SATySFi;-fonts-asana-math};
+  author = {Yuito Murase};
+  show-title = true;
+  show-toc = false;
+|) '<
+  +p{
+      Asana Math (Math font)
+  }
+  +p {
+      \set-math-font(`fonts-asana-math:AsanaMath`) {
+        ${\abs{\mathrm{Orb}_G\(x\)} \cdot \abs{\mathrm{Stab}_G\(x\)} = \abs{G}}
+      }
+  }
+>
