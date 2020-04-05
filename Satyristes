@@ -1,14 +1,14 @@
 (version 0.0.2)
 (library
   (name "fonts-asana-math")
-  (version "000.958ver1")
+  (version "000.958+1")
   (sources
     ((hash "mathfonts.satysfi-hash" "mathfonts.satysfi-hash")
      (font "Asana-Math.otf" "Asana-Math.otf")))
   (opam "satysfi-fonts-asana-math.opam"))
 (libraryDoc
   (name "fonts-asana-math-doc")
-  (version "000.958ver1")
+  (version "000.958+1")
   (build
     ((satysfi "doc-fonts-asana-math.saty" "-o" "doc-fonts-asana-math.pdf")))
   (sources
