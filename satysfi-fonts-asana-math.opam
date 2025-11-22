@@ -16,8 +16,8 @@ dev-repo: "git+https://github.com/zeptometer/SATySFi-fonts-asana-math.git"
 extra-source "Asana-Math.otf" {
   archive: "http://mirrors.ctan.org/fonts/Asana-Math/Asana-Math.otf"
   checksum: [
-    "sha256=b0d9e681c08ff1f4dc6ebf085cc962585ec12cdbd25dc6225890b9f8fd12d568"
-    "sha512=caedaf8dbbdc914a41492605b1ac69b020297bffa8a968e424f758d4aadb0c6391c71ed48b1645bc12eb1820a72d88425a0d2dfbd528c5071566284ad4f5f1b3"
+    "sha256=9fa3bd7294acd349162ca119351212f7712d26442a3089abcb70bb327b03caf1"
+    "sha512=b85ee0683e4fc3f046c80500780a37e0e9a0453fe3c3414118bd5adcf468c77704739fdcf009de494a8bbabf484b091d5a9ede56057a0b67af1ecd12ed6145a6"
   ]
 }
 depends: [
