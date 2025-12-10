@@ -1,6 +1,6 @@
 opam-version: "2.0"
 name: "satysfi-fonts-asana-math"
-version: "000.958+1+satysfi0.0.4"
+version: "000.962+satysfi0.0.4"
 synopsis: "SATySFi Font Package for Asana Math Fonts"
 description: """
 SATySFi font package for Asana Math fonts.
