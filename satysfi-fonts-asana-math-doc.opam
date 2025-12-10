@@ -18,13 +18,13 @@ depends: [
 ]
 build: [
   ["satyrographos" "opam" "build"
-   "-name" "fonts-asana-math-doc"
-   "-prefix" "%{prefix}%"
-   "-script" "%{build}%/Satyristes"]
+   "--name" "fonts-asana-math-doc"
+   "--prefix" "%{prefix}%"
+   "--script" "%{build}%/Satyristes"]
 ]
 install: [
   ["satyrographos" "opam" "install"
-   "-name" "fonts-asana-math-doc"
-   "-prefix" "%{prefix}%"
-   "-script" "%{build}%/Satyristes"]
+   "--name" "fonts-asana-math-doc"
+   "--prefix" "%{prefix}%"
+   "--script" "%{build}%/Satyristes"]
 ]
